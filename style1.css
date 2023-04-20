@@ -1,0 +1,85 @@
+/* Reset styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Typography */
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+}
+
+h1, h2 {
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 32px;
+	margin: 20px 0;
+}
+
+h2 {
+	font-size: 24px;
+	margin: 10px 0;
+}
+
+p {
+	margin: 10px 0;
+}
+
+/* Layout */
+header {
+	background-color: #333;
+	padding: 20px;
+	color: white;
+}
+
+main {
+	padding: 20px;
+}
+
+.features {
+	margin-top: 40px;
+}
+
+ul {
+	list-style: none;
+}
+
+li:before {
+	content: "\2022";
+	margin-right: 10px;
+	color: #1E90FF;
+}
+
+.cta {
+	margin-top: 40px;
+	background-color: #1E90FF;
+	padding: 40px;
+	color: white;
+	text-align: center;
+}
+
+.cta p {
+	margin-bottom: 20px;
+}
+
+.cta-btn {
+	background-color: white;
+	color: #1E90FF;
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: none;
+	font-size: 20px;
+	cursor: pointer;
+	transition: all 0.2s ease-in-out;
+}
+
+.cta-btn:hover {
+	background-color: #1E90FF;
+	color: white;
+}
